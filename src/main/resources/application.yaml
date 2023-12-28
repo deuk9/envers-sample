@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  docker:
+    compose:
+      enabled: true
+      lifecycle-management: start_only
