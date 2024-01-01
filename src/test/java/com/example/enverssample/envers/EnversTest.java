@@ -10,11 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 @SpringBootTest
 public class EnversTest {
 
-    @Autowired
-    MemberRepository memberRepository;
-
-    @Autowired
-    TeamRepository teamRepository;
 
     @Test
     @Transactional
